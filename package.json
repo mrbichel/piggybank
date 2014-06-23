@@ -1,0 +1,17 @@
+{
+  "name": "gris",
+  "subdomain": "gris",
+  "version": "0.0.1-13",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.0.6",
+    "jade": "0.28.2",
+    "redis": "0.8.2"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

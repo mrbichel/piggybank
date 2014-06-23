@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+body {
+  background: #8cc0a6;
+  padding: 50px;
+  text-align: center;
+  font: 14px 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+#wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+
+header #logo, footer img {
+    margin: 0 auto;
+    display: block;
+    
+}
+
+footer p {
+  text-align: center;
+}
+
+
+#status {
+  margin-bottom: 50px;
+  clear: both;
+  overflow: hidden;
+}
+
+#amount, #percent {
+  width: 50%;
+  float: left;
+}
+
+dt {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12px;
+}
+
+dd {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;}
+
+#forms {
+  margin-top: 40px;
+}
+
+form {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+
+input {
+  font-size: 26px;
+  -webkit-border-radius: 6px;
+  border: none;
+  font-weight: 300;
+}
+
+input#goal, input#coins {
+ width: 245px;
+ //height: 75px;
+ padding: 22px 25px;
+ margin: 0;
+ float: left;
+   font-weight: 300;
+}
+
+input.btn {
+ width: 75px;
+ height: 75px;
+ float: right;
+ background-color: #549154;
+ color: #fff;
+ cursor: pointer;
+ -webkit-appearance: none;
+}
