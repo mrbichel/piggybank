@@ -10,9 +10,8 @@ a {
   color: #00B7FF;
 }
 
-
 #wrapper {
-  width: 100%;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -69,7 +68,7 @@ input {
 }
 
 input#goal, input#coins {
- width: 245px;
+ width: 178px;
  //height: 75px;
  padding: 22px 25px;
  margin: 0;
