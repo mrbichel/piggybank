@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 body {
   background: #8cc0a6;
-  padding: 50px;
+  padding: 0px;
   text-align: center;
   font: 14px 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -11,8 +11,9 @@ a {
 }
 
 #wrapper {
-  width: 320px;
+  width: 300px;
   margin: 0 auto;
+  padding: 0;
 }
 
 header #logo, footer img {
@@ -68,7 +69,7 @@ input {
 }
 
 input#goal, input#coins {
- width: 178px;
+ width: 160px;
  //height: 75px;
  padding: 22px 25px;
  margin: 0;
